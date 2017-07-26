@@ -1,0 +1,16 @@
+PODS:
+  - GoogleStocks (0.1.0)
+
+DEPENDENCIES:
+  - GoogleStocks (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleStocks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoogleStocks: a0bc5be0cb64b8c2ad10f69b8e689bb4ffd70f73
+
+PODFILE CHECKSUM: a372b859d528b7089fa55463c6472a292389acf6
+
+COCOAPODS: 1.2.1

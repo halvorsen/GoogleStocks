@@ -1,0 +1,6 @@
+framework module Pods_GoogleStocks_Tests {
+  umbrella header "Pods-GoogleStocks_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

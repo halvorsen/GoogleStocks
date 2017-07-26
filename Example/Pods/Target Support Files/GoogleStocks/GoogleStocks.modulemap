@@ -1,0 +1,6 @@
+framework module GoogleStocks {
+  umbrella header "GoogleStocks-umbrella.h"
+
+  export *
+  module * { export * }
+}

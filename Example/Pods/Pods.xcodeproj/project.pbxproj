@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1CA9FC3D7DC3FB9240E63789C740E8 /* GoogleStocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C929AA176F4D3D38CD100EC5C8F86F /* GoogleStocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3952E28A0B105439735723F934D77688 /* Pods-GoogleStocks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551D00F5992FDFBF6777FCCF4FDD013F /* Pods-GoogleStocks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63313F63CA9BBB2AA6385F1AA72288D7 /* GoogleStocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373AA3310A097273F6AB323986A4DF4 /* GoogleStocks-dummy.m */; };
+		86611878D8C01CCFE19332B8CA3BD61F /* Pods-GoogleStocks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC903B33B13423C4974BD03C37AAFBD /* Pods-GoogleStocks_Example-dummy.m */; };
+		8F104864DDF6C06EF5DB3A4A776FED17 /* Pods-GoogleStocks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9927DEE8B4502A51D06E81DD7728159 /* Pods-GoogleStocks_Tests-dummy.m */; };
+		9F84BDDE4CA8D3907A0703379EC7A299 /* Pods-GoogleStocks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAEF97EF75DE10623D4BD5A8A479942 /* Pods-GoogleStocks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB3B4677DCB681C9686F97E7C32E9369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E6A0BE307F04BCDEB1EF2D99FAC06FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E934B12F4C69F259B779D3CDD26ADD0B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */; };
+		E9D3047B17082DDD0D39C74A7A68AC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A669F4DA2CE32A539B6D6326C0F452A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003A7A74066C552C174F9BB7BF259AA8;
+			remoteInfo = GoogleStocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0373AA3310A097273F6AB323986A4DF4 /* GoogleStocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleStocks-dummy.m"; sourceTree = "<group>"; };
+		071A927B4BF81EE7CDC99919804C5D09 /* Pods_GoogleStocks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleStocks_Tests.framework; path = "Pods-GoogleStocks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A3A7136096048E0A73084F38686D18 /* Pods-GoogleStocks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleStocks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0963DE07A4C61CE876EA64BE595BF5CA /* Pods-GoogleStocks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0EEEDA840E4046241054C07FA4EF6BC0 /* Pods-GoogleStocks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Example-frameworks.sh"; sourceTree = "<group>"; };
+		138935FACF33B252F758270951C6D1BA /* Pods-GoogleStocks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleStocks.xcconfig; sourceTree = "<group>"; };
+		211476A015939688AC0D81DBA943A747 /* Pods-GoogleStocks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleStocks_Tests.modulemap"; sourceTree = "<group>"; };
+		3EC903B33B13423C4974BD03C37AAFBD /* Pods-GoogleStocks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleStocks_Example-dummy.m"; sourceTree = "<group>"; };
+		43ABC1DEF952CB80FB1B41D1235DC1DF /* Pods-GoogleStocks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Tests-resources.sh"; sourceTree = "<group>"; };
+		452CFC3A03AF804B07916290C35E94DB /* GoogleStocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleStocks-prefix.pch"; sourceTree = "<group>"; };
+		45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		551D00F5992FDFBF6777FCCF4FDD013F /* Pods-GoogleStocks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleStocks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		607AD6BCD5A23E57532C48359E68F1A2 /* Pods-GoogleStocks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleStocks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62384204525D80F68FDEFC9ABB813F00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A9C41A3FE71C4D654DE5A68A7013050 /* Pods-GoogleStocks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleStocks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78C929AA176F4D3D38CD100EC5C8F86F /* GoogleStocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleStocks-umbrella.h"; sourceTree = "<group>"; };
+		7C9A895EDEE1C83302CD634252B31259 /* Pods-GoogleStocks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		861F693DBD7DF0AF7C9B6B985EA95579 /* Pods-GoogleStocks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleStocks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B864B47E6991A425D9B163B41C7E00A /* Pods-GoogleStocks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB306A196FED2066A8812D5F642179E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE94619BF0E04A76F77B6EAA0433AD5 /* Pods-GoogleStocks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A58AE880CCA118FC5A4A1CD059FC5D50 /* GoogleStocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleStocks.modulemap; sourceTree = "<group>"; };
+		A9927DEE8B4502A51D06E81DD7728159 /* Pods-GoogleStocks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleStocks_Tests-dummy.m"; sourceTree = "<group>"; };
+		B12DAF5AB8DE9156386C9FED88911354 /* Pods-GoogleStocks_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Example-resources.sh"; sourceTree = "<group>"; };
+		BEAEF97EF75DE10623D4BD5A8A479942 /* Pods-GoogleStocks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleStocks_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5EF8C998B028E0A76D44961409F534F /* Pods_GoogleStocks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleStocks_Example.framework; path = "Pods-GoogleStocks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907C202D232974951CE7D437EDE19CC /* GoogleStocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleStocks.framework; path = GoogleStocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1DD2DAD65400B772E38B0B59BAA43F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CAD963BCCF4D879BCBCF427F8EBA3C /* Pods-GoogleStocks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleStocks_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E20A7B18F38D5043BF766972C7EEFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3047B17082DDD0D39C74A7A68AC97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95D2294315D5770AB8E6AA1DFE4E4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A0BE307F04BCDEB1EF2D99FAC06FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BB4A0491353F7EC09B6C35CED582BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3B4677DCB681C9686F97E7C32E9369 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BC65D4B0012C21C378AAAD8D6FF476 /* GoogleStocks */ = {
+			isa = PBXGroup;
+			children = (
+				96CC7A596A631727AE7113514B54892C /* Classes */,
+			);
+			name = GoogleStocks;
+			path = GoogleStocks;
+			sourceTree = "<group>";
+		};
+		0A25C0E5AC92E06236CD4084774661A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C907C202D232974951CE7D437EDE19CC /* GoogleStocks.framework */,
+				C5EF8C998B028E0A76D44961409F534F /* Pods_GoogleStocks_Example.framework */,
+				071A927B4BF81EE7CDC99919804C5D09 /* Pods_GoogleStocks_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204531A3C771D7E713C3450415EDDD03 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25FA57D459379189F8226631A7180791 /* GoogleStocks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25FA57D459379189F8226631A7180791 /* GoogleStocks */ = {
+			isa = PBXGroup;
+			children = (
+				02BC65D4B0012C21C378AAAD8D6FF476 /* GoogleStocks */,
+				E4D10D33F82C2FA366023D844F811253 /* Support Files */,
+			);
+			name = GoogleStocks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C7B314AB467AC32DF53D36408D17994 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D253972B5A5E784C13D77D6EF29DCB25 /* Pods-GoogleStocks_Example */,
+				B9083128A82CD24C9166F4F00D07C0ED /* Pods-GoogleStocks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				204531A3C771D7E713C3450415EDDD03 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A25C0E5AC92E06236CD4084774661A4 /* Products */,
+				3C7B314AB467AC32DF53D36408D17994 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96CC7A596A631727AE7113514B54892C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B9083128A82CD24C9166F4F00D07C0ED /* Pods-GoogleStocks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62384204525D80F68FDEFC9ABB813F00 /* Info.plist */,
+				211476A015939688AC0D81DBA943A747 /* Pods-GoogleStocks_Tests.modulemap */,
+				07A3A7136096048E0A73084F38686D18 /* Pods-GoogleStocks_Tests-acknowledgements.markdown */,
+				861F693DBD7DF0AF7C9B6B985EA95579 /* Pods-GoogleStocks_Tests-acknowledgements.plist */,
+				A9927DEE8B4502A51D06E81DD7728159 /* Pods-GoogleStocks_Tests-dummy.m */,
+				0963DE07A4C61CE876EA64BE595BF5CA /* Pods-GoogleStocks_Tests-frameworks.sh */,
+				43ABC1DEF952CB80FB1B41D1235DC1DF /* Pods-GoogleStocks_Tests-resources.sh */,
+				551D00F5992FDFBF6777FCCF4FDD013F /* Pods-GoogleStocks_Tests-umbrella.h */,
+				7C9A895EDEE1C83302CD634252B31259 /* Pods-GoogleStocks_Tests.debug.xcconfig */,
+				8B864B47E6991A425D9B163B41C7E00A /* Pods-GoogleStocks_Tests.release.xcconfig */,
+			);
+			name = "Pods-GoogleStocks_Tests";
+			path = "Target Support Files/Pods-GoogleStocks_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D253972B5A5E784C13D77D6EF29DCB25 /* Pods-GoogleStocks_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD1DD2DAD65400B772E38B0B59BAA43F /* Info.plist */,
+				F8CAD963BCCF4D879BCBCF427F8EBA3C /* Pods-GoogleStocks_Example.modulemap */,
+				6A9C41A3FE71C4D654DE5A68A7013050 /* Pods-GoogleStocks_Example-acknowledgements.markdown */,
+				607AD6BCD5A23E57532C48359E68F1A2 /* Pods-GoogleStocks_Example-acknowledgements.plist */,
+				3EC903B33B13423C4974BD03C37AAFBD /* Pods-GoogleStocks_Example-dummy.m */,
+				0EEEDA840E4046241054C07FA4EF6BC0 /* Pods-GoogleStocks_Example-frameworks.sh */,
+				B12DAF5AB8DE9156386C9FED88911354 /* Pods-GoogleStocks_Example-resources.sh */,
+				BEAEF97EF75DE10623D4BD5A8A479942 /* Pods-GoogleStocks_Example-umbrella.h */,
+				9FE94619BF0E04A76F77B6EAA0433AD5 /* Pods-GoogleStocks_Example.debug.xcconfig */,
+				138935FACF33B252F758270951C6D1BA /* Pods-GoogleStocks_Example.release.xcconfig */,
+			);
+			name = "Pods-GoogleStocks_Example";
+			path = "Target Support Files/Pods-GoogleStocks_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4D10D33F82C2FA366023D844F811253 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A58AE880CCA118FC5A4A1CD059FC5D50 /* GoogleStocks.modulemap */,
+				1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */,
+				0373AA3310A097273F6AB323986A4DF4 /* GoogleStocks-dummy.m */,
+				452CFC3A03AF804B07916290C35E94DB /* GoogleStocks-prefix.pch */,
+				78C929AA176F4D3D38CD100EC5C8F86F /* GoogleStocks-umbrella.h */,
+				9CB306A196FED2066A8812D5F642179E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GoogleStocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D67CFE32605CE832EB25F30EAF88B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F84BDDE4CA8D3907A0703379EC7A299 /* Pods-GoogleStocks_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98241FF6DE8FFE539BDE4F002525C42B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1CA9FC3D7DC3FB9240E63789C740E8 /* GoogleStocks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0F116FF3903E8EA0231FA89D5F1D39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3952E28A0B105439735723F934D77688 /* Pods-GoogleStocks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		003A7A74066C552C174F9BB7BF259AA8 /* GoogleStocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD918FE403AAF4B846DB6DC897C528D /* Build configuration list for PBXNativeTarget "GoogleStocks" */;
+			buildPhases = (
+				1445B158FE611A2A03D8345239C6849D /* Sources */,
+				C6BB4A0491353F7EC09B6C35CED582BE /* Frameworks */,
+				98241FF6DE8FFE539BDE4F002525C42B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleStocks;
+			productName = GoogleStocks;
+			productReference = C907C202D232974951CE7D437EDE19CC /* GoogleStocks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		448D561B2FC6C345405BA2FD0C2E296F /* Pods-GoogleStocks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39FD90897CE2A5BBFF22BE56003510C /* Build configuration list for PBXNativeTarget "Pods-GoogleStocks_Tests" */;
+			buildPhases = (
+				41A911F25BEB891AABE884E7C96098FC /* Sources */,
+				B95D2294315D5770AB8E6AA1DFE4E4D7 /* Frameworks */,
+				BF0F116FF3903E8EA0231FA89D5F1D39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GoogleStocks_Tests";
+			productName = "Pods-GoogleStocks_Tests";
+			productReference = 071A927B4BF81EE7CDC99919804C5D09 /* Pods_GoogleStocks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA60D4B729C3BC7009BADC969AA746A1 /* Pods-GoogleStocks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4155D0DC607994E4583467FB8F8D43F /* Build configuration list for PBXNativeTarget "Pods-GoogleStocks_Example" */;
+			buildPhases = (
+				44ACA4AF9EDBEF322573AC555BACA3AE /* Sources */,
+				2E20A7B18F38D5043BF766972C7EEFEB /* Frameworks */,
+				3D67CFE32605CE832EB25F30EAF88B36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197904D031A25A410156E5FBFBA4F460 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleStocks_Example";
+			productName = "Pods-GoogleStocks_Example";
+			productReference = C5EF8C998B028E0A76D44961409F534F /* Pods_GoogleStocks_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A25C0E5AC92E06236CD4084774661A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003A7A74066C552C174F9BB7BF259AA8 /* GoogleStocks */,
+				EA60D4B729C3BC7009BADC969AA746A1 /* Pods-GoogleStocks_Example */,
+				448D561B2FC6C345405BA2FD0C2E296F /* Pods-GoogleStocks_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1445B158FE611A2A03D8345239C6849D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63313F63CA9BBB2AA6385F1AA72288D7 /* GoogleStocks-dummy.m in Sources */,
+				E934B12F4C69F259B779D3CDD26ADD0B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A911F25BEB891AABE884E7C96098FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F104864DDF6C06EF5DB3A4A776FED17 /* Pods-GoogleStocks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACA4AF9EDBEF322573AC555BACA3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86611878D8C01CCFE19332B8CA3BD61F /* Pods-GoogleStocks_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197904D031A25A410156E5FBFBA4F460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleStocks;
+			target = 003A7A74066C552C174F9BB7BF259AA8 /* GoogleStocks */;
+			targetProxy = A669F4DA2CE32A539B6D6326C0F452A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B7FE2A6B2C60376B54E24F5FCEA2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE94619BF0E04A76F77B6EAA0433AD5 /* Pods-GoogleStocks_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleStocks_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleStocks_Example/Pods-GoogleStocks_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleStocks_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6704431996956CC6152CB98039F5F482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B864B47E6991A425D9B163B41C7E00A /* Pods-GoogleStocks_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleStocks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleStocks_Tests/Pods-GoogleStocks_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleStocks_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFABF5AA9A78AE21DAA06F0B08295ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138935FACF33B252F758270951C6D1BA /* Pods-GoogleStocks_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleStocks_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleStocks_Example/Pods-GoogleStocks_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleStocks_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC9DFC37B596B2DFFB048C55A7C072BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9A895EDEE1C83302CD634252B31259 /* Pods-GoogleStocks_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleStocks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleStocks_Tests/Pods-GoogleStocks_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleStocks_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3334DAFECDB080CF1BAE2A9F52FC11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleStocks/GoogleStocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleStocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleStocks/GoogleStocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleStocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F568E0E83D847562177BE01575FEDACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleStocks/GoogleStocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleStocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleStocks/GoogleStocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleStocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD918FE403AAF4B846DB6DC897C528D /* Build configuration list for PBXNativeTarget "GoogleStocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F568E0E83D847562177BE01575FEDACE /* Debug */,
+				E3334DAFECDB080CF1BAE2A9F52FC11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39FD90897CE2A5BBFF22BE56003510C /* Build configuration list for PBXNativeTarget "Pods-GoogleStocks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9DFC37B596B2DFFB048C55A7C072BE /* Debug */,
+				6704431996956CC6152CB98039F5F482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4155D0DC607994E4583467FB8F8D43F /* Build configuration list for PBXNativeTarget "Pods-GoogleStocks_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7FE2A6B2C60376B54E24F5FCEA2BF1 /* Debug */,
+				AFABF5AA9A78AE21DAA06F0B08295ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
