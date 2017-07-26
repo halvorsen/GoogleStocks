@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GoogleStocks_Example' do
+  pod 'GoogleStocks', :path => '../'
+
+  target 'GoogleStocks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
