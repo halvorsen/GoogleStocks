@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0600A2551F2963D300BFBF31 /* StockPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0600A2541F2963D300BFBF31 /* StockPrices.swift */; };
+		0600A2571F2966A100BFBF31 /* IndexListOfStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0600A2561F2966A100BFBF31 /* IndexListOfStocks.swift */; };
 		0B1CA9FC3D7DC3FB9240E63789C740E8 /* GoogleStocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C929AA176F4D3D38CD100EC5C8F86F /* GoogleStocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3952E28A0B105439735723F934D77688 /* Pods-GoogleStocks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551D00F5992FDFBF6777FCCF4FDD013F /* Pods-GoogleStocks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63313F63CA9BBB2AA6385F1AA72288D7 /* GoogleStocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373AA3310A097273F6AB323986A4DF4 /* GoogleStocks-dummy.m */; };
@@ -15,7 +17,6 @@
 		9F84BDDE4CA8D3907A0703379EC7A299 /* Pods-GoogleStocks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAEF97EF75DE10623D4BD5A8A479942 /* Pods-GoogleStocks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3B4677DCB681C9686F97E7C32E9369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E6A0BE307F04BCDEB1EF2D99FAC06FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E934B12F4C69F259B779D3CDD26ADD0B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */; };
 		E9D3047B17082DDD0D39C74A7A68AC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,17 +32,18 @@
 
 /* Begin PBXFileReference section */
 		0373AA3310A097273F6AB323986A4DF4 /* GoogleStocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleStocks-dummy.m"; sourceTree = "<group>"; };
-		071A927B4BF81EE7CDC99919804C5D09 /* Pods_GoogleStocks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleStocks_Tests.framework; path = "Pods-GoogleStocks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0600A2541F2963D300BFBF31 /* StockPrices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockPrices.swift; sourceTree = "<group>"; };
+		0600A2561F2966A100BFBF31 /* IndexListOfStocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexListOfStocks.swift; sourceTree = "<group>"; };
+		071A927B4BF81EE7CDC99919804C5D09 /* Pods_GoogleStocks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleStocks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A3A7136096048E0A73084F38686D18 /* Pods-GoogleStocks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleStocks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0963DE07A4C61CE876EA64BE595BF5CA /* Pods-GoogleStocks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0EEEDA840E4046241054C07FA4EF6BC0 /* Pods-GoogleStocks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Example-frameworks.sh"; sourceTree = "<group>"; };
 		138935FACF33B252F758270951C6D1BA /* Pods-GoogleStocks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleStocks.xcconfig; sourceTree = "<group>"; };
-		211476A015939688AC0D81DBA943A747 /* Pods-GoogleStocks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleStocks_Tests.modulemap"; sourceTree = "<group>"; };
+		211476A015939688AC0D81DBA943A747 /* Pods-GoogleStocks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GoogleStocks_Tests.modulemap"; sourceTree = "<group>"; };
 		3EC903B33B13423C4974BD03C37AAFBD /* Pods-GoogleStocks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleStocks_Example-dummy.m"; sourceTree = "<group>"; };
 		43ABC1DEF952CB80FB1B41D1235DC1DF /* Pods-GoogleStocks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Tests-resources.sh"; sourceTree = "<group>"; };
 		452CFC3A03AF804B07916290C35E94DB /* GoogleStocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleStocks-prefix.pch"; sourceTree = "<group>"; };
-		45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		551D00F5992FDFBF6777FCCF4FDD013F /* Pods-GoogleStocks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleStocks_Tests-umbrella.h"; sourceTree = "<group>"; };
 		607AD6BCD5A23E57532C48359E68F1A2 /* Pods-GoogleStocks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleStocks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		62384204525D80F68FDEFC9ABB813F00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,17 +53,17 @@
 		7C9A895EDEE1C83302CD634252B31259 /* Pods-GoogleStocks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		861F693DBD7DF0AF7C9B6B985EA95579 /* Pods-GoogleStocks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleStocks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8B864B47E6991A425D9B163B41C7E00A /* Pods-GoogleStocks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CB306A196FED2066A8812D5F642179E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE94619BF0E04A76F77B6EAA0433AD5 /* Pods-GoogleStocks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleStocks_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A58AE880CCA118FC5A4A1CD059FC5D50 /* GoogleStocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleStocks.modulemap; sourceTree = "<group>"; };
+		A58AE880CCA118FC5A4A1CD059FC5D50 /* GoogleStocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleStocks.modulemap; sourceTree = "<group>"; };
 		A9927DEE8B4502A51D06E81DD7728159 /* Pods-GoogleStocks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleStocks_Tests-dummy.m"; sourceTree = "<group>"; };
 		B12DAF5AB8DE9156386C9FED88911354 /* Pods-GoogleStocks_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleStocks_Example-resources.sh"; sourceTree = "<group>"; };
 		BEAEF97EF75DE10623D4BD5A8A479942 /* Pods-GoogleStocks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleStocks_Example-umbrella.h"; sourceTree = "<group>"; };
-		C5EF8C998B028E0A76D44961409F534F /* Pods_GoogleStocks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleStocks_Example.framework; path = "Pods-GoogleStocks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C907C202D232974951CE7D437EDE19CC /* GoogleStocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleStocks.framework; path = GoogleStocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EF8C998B028E0A76D44961409F534F /* Pods_GoogleStocks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleStocks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907C202D232974951CE7D437EDE19CC /* GoogleStocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleStocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1DD2DAD65400B772E38B0B59BAA43F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8CAD963BCCF4D879BCBCF427F8EBA3C /* Pods-GoogleStocks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleStocks_Example.modulemap"; sourceTree = "<group>"; };
+		F8CAD963BCCF4D879BCBCF427F8EBA3C /* Pods-GoogleStocks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GoogleStocks_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,6 @@
 			children = (
 				96CC7A596A631727AE7113514B54892C /* Classes */,
 			);
-			name = GoogleStocks;
 			path = GoogleStocks;
 			sourceTree = "<group>";
 		};
@@ -152,9 +153,9 @@
 		96CC7A596A631727AE7113514B54892C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				45F77EA484BE8065019B81F3B3A0842B /* ReplaceMe.swift */,
+				0600A2561F2966A100BFBF31 /* IndexListOfStocks.swift */,
+				0600A2541F2963D300BFBF31 /* StockPrices.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					003A7A74066C552C174F9BB7BF259AA8 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,8 +345,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0600A2551F2963D300BFBF31 /* StockPrices.swift in Sources */,
+				0600A2571F2966A100BFBF31 /* IndexListOfStocks.swift in Sources */,
 				63313F63CA9BBB2AA6385F1AA72288D7 /* GoogleStocks-dummy.m in Sources */,
-				E934B12F4C69F259B779D3CDD26ADD0B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1651295EEA52FB932DBFACE06824C9A5 /* GoogleStocks.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
