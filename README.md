@@ -23,7 +23,7 @@ Historical prices
 
 For Example: 
 
-`
+```
 StockPrices.shared.historicalPrices(years: 10, ticker: "TSLA") { (_stockData,_dates,error) in
 if error != nil {
 print(error?.localizedDescription)
@@ -36,8 +36,7 @@ print("Stock Prices As Strings::::")
 print(stockData.map {"$" + String(format: "%.02f", $0)})
 print("Stock Dates::::")
 print(dates)
-}
-`
+}```
 
 Current price displays current value when stock market is open, last closing price if it is closed
 
@@ -45,8 +44,7 @@ Current price displays current value when stock market is open, last closing pri
 
 For Example:
 
-`
-StockPrices.shared.currentPrice(ticker: "TSLA") { (tuple, error) in
+```StockPrices.shared.currentPrice(ticker: "TSLA") { (tuple, error) in
 
 if error != nil {
 print(error!.localizedDescription)
@@ -60,8 +58,7 @@ print("$" + String(format: "%.02f", price))
 print("Stock Date::::")
 print("\(month) \(day), \(year)")
 }
-}
-`
+}```
 
 *GoogleStocks is meant for personal use and not production use, here is the cheapest option I've found for production:
 Intrinio.com, $250/month for up to 100,000 api calls/day for startups.
