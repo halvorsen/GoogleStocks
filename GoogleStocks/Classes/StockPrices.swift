@@ -121,7 +121,10 @@ public class StockPrices {
         
         let index = getIndex(ticker: ticker)
         
-        let url = URL(string: "https://www.google.com/finance/info?q=" + index + ":" + ticker)
+        var url = URL(string: "https://www.google.com/finance/info?q=" + ticker)
+        if index.lowercased() == "otcmkts" {
+         url = URL(string: "https://www.google.com/finance/info?q=" + index + ":" + ticker)
+        }
         if let usableUrl = url {
             let request = URLRequest(url: usableUrl)
             let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
