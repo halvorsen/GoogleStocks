@@ -5,9 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/GoogleStocks.svg?style=flat)](http://cocoapods.org/pods/GoogleStocks)
 [![Platform](https://img.shields.io/cocoapods/p/GoogleStocks.svg?style=flat)](http://cocoapods.org/pods/GoogleStocks)
 
-<p align="center">
-<img src="http://aaronhalvorsen.com/resources/GoogleStocks.gif" width="375" height="667" alt="DynamicButton" />
-</p>
+#<p align="center">
+#<img src="http://aaronhalvorsen.com/resources/GoogleStocks.gif" width="375" height="667" alt="DynamicButton" />
+#</p>
+
+***Google Finance API no longer working.***
 
 ## Example
 
