@@ -37,9 +37,11 @@ public class StockPrices {
                 self.basket[1] = [(lastPrice,monthToday,dayToday,yearToday)]
                 
                 for i in 0...1 {
-                    for (price,month,day,year) in self.basket[i]!.reversed() {
+                    if let b = self.basket[i] {
+                    for (price,month,day,year) in b.reversed() {
                         self.closingPrices.append(price)
                         self.monthAndDay.append((month,day,year))
+                    }
                     }
                 }
                
@@ -53,11 +55,12 @@ public class StockPrices {
     var error2: Error?
     
     private func fetchFromGoogle(yearStart: Int, dateComponentStart: DateComponents, dateComponentEnd: DateComponents, ticker: String, index: String, result2: @escaping () -> Void) {
-        
-        let endDate = Calendar.current.date(byAdding: dateComponentEnd, to: Date())
-        let endDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: endDate!)
-        let startDate = Calendar.current.date(byAdding: dateComponentStart, to: endDate!)
-        let startDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: startDate!)
+        let _endDate = Calendar.current.date(byAdding: dateComponentEnd, to: Date())
+        guard let endDate = _endDate else {return}
+        let endDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: endDate)
+        let _startDate = Calendar.current.date(byAdding: dateComponentStart, to: endDate)
+        guard let startDate = _startDate else {return}
+        let startDateComponents = Calendar.current.dateComponents([.year, .month, .day], from: startDate)
         let startDateMonth = monthStrings[startDateComponents.month!]
         let startDateYear = String(describing: startDateComponents.year!)
         let startDateDay = String(describing: startDateComponents.day!)
@@ -101,8 +104,9 @@ public class StockPrices {
                                         dash += 1
                                     }
                                 }
-                                
-                                priceData.append((_dataInArrays,m,Int(d)!,Int(y)! + 2000))
+                                guard let priceDay = Int(d),
+                                    let priceYear = Int(y) else {return}
+                                priceData.append((_dataInArrays,m,priceDay,priceYear + 2000))
                                 
                             }
                         }
@@ -159,7 +163,7 @@ public class StockPrices {
                 }
                 
                 //check if error occured in historical fetch
-                if self.errorInSecondFetch {
+                if self.errorInSecondFetch && error2 != nil {
                     print("Error from Google Request of historical prices: \(self.error2!)")
                     done(nil,self.error2)
                 }
